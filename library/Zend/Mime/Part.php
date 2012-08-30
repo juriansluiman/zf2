@@ -19,7 +19,7 @@ namespace Zend\Mime;
 class Part
 {
     public $type = Mime::TYPE_OCTETSTREAM;
-    public $encoding = Mime::ENCODING_8BIT;
+    public $encoding = Mime::ENCODING_BASE64;
     public $id;
     public $disposition;
     public $filename;
